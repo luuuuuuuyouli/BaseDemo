@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  basisProject
+//
+//  Created by shenyong on 2019/2/27.
+//  Copyright © 2019年 shenyong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//导入常用类
+#import "BaseViewController.h"
+
+//倒入宏类
+#import "macros.pch"
+
+#endif /* PrefixHeader_pch */

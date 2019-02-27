@@ -1,0 +1,37 @@
+//
+//  macros.pch
+//  basisProject
+//
+//  Created by shenyong on 2019/2/27.
+//  Copyright © 2019年 shenyong. All rights reserved.
+//
+
+#ifndef macros_pch
+#define macros_pch
+
+#define statusHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define SystemVersion [UIDevice currentDevice].systemVersion.floatValue
+#define SCREEN_W  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_H  [UIScreen mainScreen].bounds.size.height
+#define TabbarHeight [UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height  > 812 ? 83 : 49
+
+#define NavHeight [UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height  > 812 ? 88 :64
+
+#define XScare  [UIScreen mainScreen].bounds.size.width / 375.0f
+#define YScare  [UIScreen mainScreen].bounds.size.height / 667.0f
+
+#define RGB16(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0  green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define rgba(R,G,B,A) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:(A)]
+
+
+/* iOS设备 */
+#define kDevice_Is_iPhone4s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6PlusBigMode ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen]currentMode].size) : NO)
+//适配参数
+#define KsuitParam (kDevice_Is_iPhone6Plus ?1.12:(kDevice_Is_iPhone6?1.0:(iPhone6PlusBigMode ?1.01:0.85))) //以6为基准图
+
+
+#endif /* macros_pch */
