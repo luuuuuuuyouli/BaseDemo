@@ -23,6 +23,11 @@
 #define RGB16(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0  green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define rgba(R,G,B,A) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:(A)]
 
+//主题颜色
+#define mainColor [UIColor colorWithRed:119/255.0 green:114/255.0 blue:238/255.0 alpha:1]
+
+
+
 
 /* iOS设备 */
 #define kDevice_Is_iPhone4s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)

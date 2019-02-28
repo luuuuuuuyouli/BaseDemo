@@ -8,9 +8,10 @@
 
 #import "BasicTabBarViewController.h"
 #import "BasicNavViewController.h"
-#import "HomeViewController.h"
-#import "PersonViewController.h"
-#import "OrderViewController.h"
+#import "SYHomeViewController.h"
+#import "SYElementViewController.h"
+#import "SYSetupViewController.h"
+
 
 
 @interface BasicTabBarViewController ()
@@ -21,21 +22,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil] forState:UIControlStateNormal];
+
+    
     [self addChild];
     //2.设置tabbar的背景色
-    self.tabBar.backgroundColor = rgba(57, 57, 57, 1);
-    self.tabBar.translucent = NO;
+
+    [[UITabBar appearance] setBarTintColor:rgba(113, 157, 248, 1)];
+    
+    [UITabBar appearance].translucent = NO;
 }
 - (void)addChild{
     
-    HomeViewController *homeVC = [[HomeViewController alloc]init];
-    [self addChildViewController:homeVC withNormalImage:@"shouy2" selectedImage:@"zhuye" title:@"首页"];
-    
-    OrderViewController *orderVC = [[OrderViewController alloc]init];
-    [self addChildViewController:orderVC withNormalImage:@"shouy2" selectedImage:@"zhuye" title:@"订单"];
-    
-    PersonViewController *perosnVC = [[PersonViewController alloc]init];
-    [self addChildViewController:perosnVC withNormalImage:@"shouy2" selectedImage:@"zhuye" title:@"我的"];
+    SYHomeViewController *homeVC = [[SYHomeViewController alloc]init];
+    [self addChildViewController:homeVC withNormalImage:@"record_before" selectedImage:@"record_after" title:@"record"];
+
+    SYElementViewController *orderVC = [[SYElementViewController alloc]init];
+    [self addChildViewController:orderVC withNormalImage:@"element_before" selectedImage:@"element_after" title:@"element"];
+
+    SYSetupViewController *perosnVC = [[SYSetupViewController alloc]init];
+    [self addChildViewController:perosnVC withNormalImage:@"sz_before" selectedImage:@"sz_after" title:@"set up"];
     
 }
 

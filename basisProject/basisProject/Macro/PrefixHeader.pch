@@ -12,6 +12,12 @@
 //导入常用类
 #import "BaseViewController.h"
 
+//导入类别
+#import "UIView+Extension.h"
+#import "NSString+Extention.h"
+#import "UIView+AZGradient.h"
+#import "UIView+shadow.h"
+
 //倒入宏类
 #import "macros.pch"
 
