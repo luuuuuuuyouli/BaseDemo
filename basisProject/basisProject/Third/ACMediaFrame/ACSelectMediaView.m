@@ -269,7 +269,7 @@
                 break;
             case ACMediaTypePhotoAndCamera:
             {
-                ACAlertController *alert = [[ACAlertController alloc] initWithActionSheetTitles:@[@"相册", @"相机"] cancelTitle:@"取消"];
+                ACAlertController *alert = [[ACAlertController alloc] initWithActionSheetTitles:@[@"album", @"camera"] cancelTitle:@"cancel"];
                 [alert clickActionButton:^(NSInteger index) {
                     if (index == 0) {
                         [weakSelf openAlbum];

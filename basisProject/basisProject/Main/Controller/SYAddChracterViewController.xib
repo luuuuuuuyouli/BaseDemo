@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYAddChracterViewController">
+            <connections>
+                <outlet property="manView" destination="W22-yP-N3d" id="P49-AC-ajY"/>
+                <outlet property="nameField" destination="G4n-Po-HaI" id="Wed-wc-SIL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="womenView" destination="H5R-IV-Wtm" id="8ce-Ta-O4i"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-8v-5bO">
+                    <rect key="frame" x="120" y="114" width="48" height="48"/>
+                    <state key="normal" image="tx"/>
+                    <connections>
+                        <action selector="manClick:" destination="-1" eventType="touchUpInside" id="Ady-wp-C7l"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Character name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHl-FH-mZG">
+                    <rect key="frame" x="20" y="192" width="114" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwE-HH-DwS">
+                    <rect key="frame" x="207" y="114" width="48" height="48"/>
+                    <state key="normal" image="tx3"/>
+                    <connections>
+                        <action selector="womenClick:" destination="-1" eventType="touchUpInside" id="F6F-Ko-uh1"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="For example : mather" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="G4n-Po-HaI">
+                    <rect key="frame" x="20" y="225" width="335" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="FWI-FP-4Pq"/>
+                    </constraints>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W22-yP-N3d">
+                    <rect key="frame" x="139" y="170" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="8iw-Re-zjA"/>
+                        <constraint firstAttribute="height" constant="10" id="Y7g-8i-z0B"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5R-IV-Wtm">
+                    <rect key="frame" x="226" y="170" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="fe9-BD-U7M"/>
+                        <constraint firstAttribute="height" constant="10" id="uf0-UO-tER"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="H5R-IV-Wtm" firstAttribute="centerX" secondItem="ZwE-HH-DwS" secondAttribute="centerX" id="ALb-d0-L78"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ZwE-HH-DwS" secondAttribute="trailing" constant="120" id="OVa-Is-buJ"/>
+                <constraint firstItem="G4n-Po-HaI" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="P20-sd-5Tn"/>
+                <constraint firstItem="W22-yP-N3d" firstAttribute="top" secondItem="eUQ-8v-5bO" secondAttribute="bottom" constant="8" id="Pds-cE-jOz"/>
+                <constraint firstItem="ZwE-HH-DwS" firstAttribute="centerY" secondItem="eUQ-8v-5bO" secondAttribute="centerY" id="U7P-cv-yEb"/>
+                <constraint firstItem="eUQ-8v-5bO" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="120" id="UAq-9Q-iQi"/>
+                <constraint firstItem="H5R-IV-Wtm" firstAttribute="top" secondItem="ZwE-HH-DwS" secondAttribute="bottom" constant="8" id="UH0-3g-qxx"/>
+                <constraint firstItem="xHl-FH-mZG" firstAttribute="top" secondItem="eUQ-8v-5bO" secondAttribute="bottom" constant="30" id="Vyv-k3-XnL"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="G4n-Po-HaI" secondAttribute="trailing" constant="20" id="djQ-kY-d6h"/>
+                <constraint firstItem="xHl-FH-mZG" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="gMB-GL-aQc"/>
+                <constraint firstItem="W22-yP-N3d" firstAttribute="centerX" secondItem="eUQ-8v-5bO" secondAttribute="centerX" id="hvO-64-jHP"/>
+                <constraint firstItem="G4n-Po-HaI" firstAttribute="top" secondItem="xHl-FH-mZG" secondAttribute="bottom" constant="15" id="iBf-pP-2ge"/>
+                <constraint firstItem="eUQ-8v-5bO" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="x9U-Fe-Rku"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tx" width="48" height="48"/>
+        <image name="tx3" width="48" height="48"/>
+    </resources>
+</document>

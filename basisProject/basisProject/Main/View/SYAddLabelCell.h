@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^AddLabelBlock)(void);
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SYAddLabelCell : UITableViewCell
+
+@property (nonatomic,strong) AddLabelBlock addLabelBlock;
+
+@property (nonatomic,strong) NSArray *tagsArray;
 
 @end
 

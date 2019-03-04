@@ -7,6 +7,7 @@
 //
 
 #import "SYSetupViewController.h"
+#import "SYFeedbackViewController.h"
 
 @interface SYSetupViewController ()
 @property (weak, nonatomic) IBOutlet UIView *topView;
@@ -24,7 +25,20 @@
     self.midView.layer.cornerRadius = 8;
     [self.midView setLayerShadow];
 }
+- (IBAction)feedBackClick:(id)sender {
+    SYFeedbackViewController *vc = [[SYFeedbackViewController alloc]init];
+    [vc setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
+- (IBAction)contactus:(id)sender {
+    
+     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"email" message:@"shenyong95@outlook.com" preferredStyle:UIAlertControllerStyleAlert];
+     [alertController addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:nil]];
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+    
+}
 
 
 @end

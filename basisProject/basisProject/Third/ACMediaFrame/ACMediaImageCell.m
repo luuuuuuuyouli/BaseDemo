@@ -64,7 +64,7 @@
     if (addImage) {
         self.icon.image = addImage;
     }else {
-        self.icon.image = [UIImage imageForResourcePath:@"ACMediaFrame.bundle/AddMedia" ofType:@"png" inBundle:[NSBundle bundleForClass:[self class]]];
+        self.icon.image = [UIImage imageForResourcePath:@"ACMediaFrame.bundle/jia" ofType:@"png" inBundle:[NSBundle bundleForClass:[self class]]];
     }
     self.deleteButton.hidden = YES;
     self.videoImageView.hidden = YES;

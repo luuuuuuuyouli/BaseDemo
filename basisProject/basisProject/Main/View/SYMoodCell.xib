@@ -25,18 +25,27 @@
                         <color key="textColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sVt-hn-TMI">
-                        <rect key="frame" x="25" y="49.5" width="31" height="33"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="sVt-hn-TMI">
+                        <rect key="frame" x="25" y="49.5" width="33" height="33"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="31" id="PJ1-3w-Jg2"/>
+                            <constraint firstAttribute="width" constant="33" id="PJ1-3w-Jg2"/>
                             <constraint firstAttribute="height" constant="33" id="cEX-y1-BYA"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cry after" translatesAutoresizingMaskIntoConstraints="NO" id="ViK-9h-Pc0">
+                        <rect key="frame" x="73" y="49.5" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="91k-QW-wzZ"/>
+                            <constraint firstAttribute="width" constant="33" id="AAO-KP-CeP"/>
                         </constraints>
                     </imageView>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="ViK-9h-Pc0" firstAttribute="centerY" secondItem="sVt-hn-TMI" secondAttribute="centerY" id="0nR-F5-1tG"/>
                     <constraint firstItem="M95-Ke-9Kl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="5Wy-nh-ZLZ"/>
                     <constraint firstItem="sVt-hn-TMI" firstAttribute="leading" secondItem="M95-Ke-9Kl" secondAttribute="leading" id="SsJ-gJ-Q8m"/>
                     <constraint firstItem="M95-Ke-9Kl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="Y8x-j8-02J"/>
+                    <constraint firstItem="ViK-9h-Pc0" firstAttribute="leading" secondItem="sVt-hn-TMI" secondAttribute="trailing" constant="15" id="ZKy-eg-D56"/>
                     <constraint firstItem="sVt-hn-TMI" firstAttribute="top" secondItem="M95-Ke-9Kl" secondAttribute="bottom" constant="15" id="qQ0-xv-2EF"/>
                 </constraints>
             </tableViewCellContentView>
@@ -44,4 +53,8 @@
             <point key="canvasLocation" x="151.19999999999999" y="267.61619190404798"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="cry after" width="36" height="36"/>
+        <image name="smile" width="27" height="27"/>
+    </resources>
 </document>

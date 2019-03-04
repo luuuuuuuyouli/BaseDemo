@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BasicTabBarViewController.h"
+#import <IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -17,10 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[BasicTabBarViewController alloc] init];
     [self.window makeKeyAndVisible];
+    
+    IQKeyboardManager * manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = YES;
+    manager.toolbarDoneBarButtonItemText = @"complete";
+    manager.shouldToolbarUsesTextFieldTintColor =NO;
+    
     return YES;
 }
 

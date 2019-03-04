@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^AddMoodBlock)(void);
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SYAddMoodCell : UITableViewCell
+
+@property (nonatomic,strong) AddMoodBlock addMoodBlock;
+
+@property (nonatomic,strong) NSDictionary *moodDic;
 
 @end
 

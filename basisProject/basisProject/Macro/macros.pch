@@ -39,4 +39,13 @@
 #define KsuitParam (kDevice_Is_iPhone6Plus ?1.12:(kDevice_Is_iPhone6?1.0:(iPhone6PlusBigMode ?1.01:0.85))) //以6为基准图
 
 
+// 弱引用
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+//MBProgress
+#define showMessage(_messages) [MBProgressHUD showMessage:_messages?_messages:@"loading..."];
+#define showError(_errors)  [MBProgressHUD showError:_errors];
+#define showSuccess(_successes) [MBProgressHUD showSuccess:_successes];
+#define hideMB [MBProgressHUD hideHUD];
+
 #endif /* macros_pch */

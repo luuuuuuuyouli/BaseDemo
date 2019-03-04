@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^AddCharacterBlock)(void);
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SYAddCharacterCell : UITableViewCell
+
+@property (nonatomic,strong) NSArray *personArray;
+
+@property (nonatomic,strong) AddCharacterBlock addCharacterBlock;
 
 @end
 

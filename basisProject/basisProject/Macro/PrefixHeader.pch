@@ -17,6 +17,11 @@
 #import "NSString+Extention.h"
 #import "UIView+AZGradient.h"
 #import "UIView+shadow.h"
+#import "MBProgressHUD+MJ.h"
+
+//导入第三方
+#import <Masonry.h>
+
 
 //倒入宏类
 #import "macros.pch"

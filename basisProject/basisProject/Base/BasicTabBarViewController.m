@@ -27,9 +27,27 @@
 
     
     [self addChild];
-    //2.设置tabbar的背景色
-
-    [[UITabBar appearance] setBarTintColor:rgba(113, 157, 248, 1)];
+    //2.设置tabbar的背景
+    
+     //[self.tabBarItem az_setGradientBackgroundWithColors:@[rgba(113, 157, 248, 1),rgba(119, 114, 238, 1)] locations:nil startPoint:CGPointMake(0, 0) endPoint:CGPointMake(1, 0)];
+    
+   // self.tabBar.barTintColor = [UIColor redColor];
+    
+    NSString *imageName = @"";
+    
+    if (SCREEN_W == 375) {
+        imageName = @"tabbar_2x";
+    }else if (SCREEN_W == 414){
+        imageName = @"tabbar_plus";
+    }else if(SCREEN_H >= 812 ){
+        imageName = @"tabbar_plus";
+    }else{
+        imageName = @"tabbar_2x";
+    }
+    
+    [self.tabBar setBackgroundImage:[UIImage imageNamed:imageName]];
+    
+   // [[UITabBar appearance] setBarTintColor:rgba(113, 157, 248, 1)];
     
     [UITabBar appearance].translucent = NO;
 }

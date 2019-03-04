@@ -26,16 +26,17 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g1t-zn-cZZ">
-                        <rect key="frame" x="12" y="38" width="357" height="100"/>
+                        <rect key="frame" x="20" y="38" width="341" height="100"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="100" id="P5a-U0-jjR"/>
                         </constraints>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-sV-S3O">
-                        <rect key="frame" x="20" y="159" width="54.5" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-sV-S3O">
+                        <rect key="frame" x="20" y="159" width="59" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -45,7 +46,7 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="Amu-XK-2Vf"/>
                         </constraints>
-                        <nil key="textColor"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
@@ -63,8 +64,15 @@
                             <constraint firstAttribute="height" constant="1" id="IpJ-kw-FWh"/>
                         </constraints>
                     </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share your travel history in 100 words at most" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLW-9H-8On">
+                        <rect key="frame" x="25" y="45" width="295.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="gLW-9H-8On" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="B81-wv-ef9"/>
                     <constraint firstItem="0x9-hr-9R3" firstAttribute="top" secondItem="yTx-sV-S3O" secondAttribute="bottom" constant="5" id="Cs2-ja-M7A"/>
                     <constraint firstAttribute="trailing" secondItem="bA0-F0-1bu" secondAttribute="trailing" constant="20" id="FaE-Ov-P1W"/>
                     <constraint firstItem="bA0-F0-1bu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="K9v-aL-zot"/>
@@ -76,14 +84,20 @@
                     <constraint firstAttribute="trailing" secondItem="0x9-hr-9R3" secondAttribute="trailing" constant="50" id="fD4-wY-OWN"/>
                     <constraint firstItem="fEA-Y6-kda" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fwq-ZA-B1u"/>
                     <constraint firstItem="yTx-sV-S3O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ieB-FI-Vo3"/>
-                    <constraint firstItem="g1t-zn-cZZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="jdN-2x-ENy"/>
+                    <constraint firstItem="g1t-zn-cZZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="jdN-2x-ENy"/>
                     <constraint firstItem="g1t-zn-cZZ" firstAttribute="top" secondItem="fEA-Y6-kda" secondAttribute="bottom" constant="5" id="lg5-Rl-yrZ"/>
+                    <constraint firstItem="gLW-9H-8On" firstAttribute="top" secondItem="fEA-Y6-kda" secondAttribute="bottom" constant="12" id="oyW-Sw-vz3"/>
                     <constraint firstItem="bA0-F0-1bu" firstAttribute="top" secondItem="g1t-zn-cZZ" secondAttribute="bottom" constant="5" id="tI0-bK-IJD"/>
-                    <constraint firstAttribute="trailing" secondItem="g1t-zn-cZZ" secondAttribute="trailing" constant="12" id="ygZ-56-HMF"/>
+                    <constraint firstAttribute="trailing" secondItem="g1t-zn-cZZ" secondAttribute="trailing" constant="20" id="ygZ-56-HMF"/>
                     <constraint firstAttribute="trailing" secondItem="MOf-h8-hmQ" secondAttribute="trailing" constant="20" id="yqP-Jj-VPt"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="locationField" destination="0x9-hr-9R3" id="LBb-aM-1IU"/>
+                <outlet property="placehouderLabel" destination="gLW-9H-8On" id="mTi-mS-3sl"/>
+                <outlet property="textView" destination="g1t-zn-cZZ" id="PTH-Ob-hp0"/>
+            </connections>
             <point key="canvasLocation" x="186.40000000000001" y="259.07046476761622"/>
         </tableViewCell>
     </objects>

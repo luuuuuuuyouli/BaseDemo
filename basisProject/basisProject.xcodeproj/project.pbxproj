@@ -55,6 +55,37 @@
 		CF0DEC222227EEDC004B594F /* ACMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC152227EEDC004B594F /* ACMediaModel.m */; };
 		CF0DEC232227EEDC004B594F /* ACMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC162227EEDC004B594F /* ACMediaManager.m */; };
 		CF0DEC242227EEDC004B594F /* ACSelectMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC1A2227EEDC004B594F /* ACSelectMediaView.m */; };
+		CF0DEC282228BD31004B594F /* SYAddMoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC262228BD31004B594F /* SYAddMoodCell.m */; };
+		CF0DEC292228BD31004B594F /* SYAddMoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DEC272228BD31004B594F /* SYAddMoodCell.xib */; };
+		CF0DEC2D2228BFAC004B594F /* SYAddLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DEC2B2228BFAB004B594F /* SYAddLabelCell.xib */; };
+		CF0DEC2E2228BFAC004B594F /* SYAddLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC2C2228BFAC004B594F /* SYAddLabelCell.m */; };
+		CF0DEC322228CA66004B594F /* SYAddMoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC302228CA66004B594F /* SYAddMoodViewController.m */; };
+		CF0DEC332228CA66004B594F /* SYAddMoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DEC312228CA66004B594F /* SYAddMoodViewController.xib */; };
+		CF0DEC372228CA80004B594F /* SYAddChracterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC352228CA80004B594F /* SYAddChracterViewController.m */; };
+		CF0DEC382228CA80004B594F /* SYAddChracterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DEC362228CA80004B594F /* SYAddChracterViewController.xib */; };
+		CF0DEC3C2228CA96004B594F /* SYPickLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC3A2228CA96004B594F /* SYPickLabelViewController.m */; };
+		CF0DEC3D2228CA96004B594F /* SYPickLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0DEC3B2228CA96004B594F /* SYPickLabelViewController.xib */; };
+		CF0DEC402228E264004B594F /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0DEC3F2228E264004B594F /* MBProgressHUD+MJ.m */; };
+		CF838427222900C90087A011 /* CCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838426222900C90087A011 /* CCDatePickerView.m */; };
+		CF83842B222912A70087A011 /* SYBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838429222912A70087A011 /* SYBannerCell.m */; };
+		CF83842C222912A70087A011 /* SYBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF83842A222912A70087A011 /* SYBannerCell.xib */; };
+		CF838430222912C30087A011 /* SYDetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF83842E222912C30087A011 /* SYDetailContentCell.m */; };
+		CF838431222912C30087A011 /* SYDetailContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF83842F222912C30087A011 /* SYDetailContentCell.xib */; };
+		CF8384352229136D0087A011 /* SYDetailCharacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8384332229136D0087A011 /* SYDetailCharacterCell.m */; };
+		CF8384362229136D0087A011 /* SYDetailCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8384342229136D0087A011 /* SYDetailCharacterCell.xib */; };
+		CF83843A222919960087A011 /* SYDetailTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838438222919960087A011 /* SYDetailTagsCell.m */; };
+		CF83843B222919960087A011 /* SYDetailTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF838439222919960087A011 /* SYDetailTagsCell.xib */; };
+		CF83843F22291F540087A011 /* SYBannerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF83843D22291F540087A011 /* SYBannerItemCell.m */; };
+		CF83844022291F540087A011 /* SYBannerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF83843E22291F540087A011 /* SYBannerItemCell.xib */; };
+		CF838444222922100087A011 /* SYUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838443222922100087A011 /* SYUserDefaults.m */; };
+		CF838448222928260087A011 /* SYRecordImgItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838446222928260087A011 /* SYRecordImgItemCell.m */; };
+		CF838449222928260087A011 /* SYRecordImgItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF838447222928260087A011 /* SYRecordImgItemCell.xib */; };
+		CF83844D2229354E0087A011 /* SYPickChracterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF83844B2229354E0087A011 /* SYPickChracterViewController.m */; };
+		CF83844E2229354E0087A011 /* SYPickChracterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF83844C2229354E0087A011 /* SYPickChracterViewController.xib */; };
+		CF838452222936250087A011 /* SYEleFigureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838450222936250087A011 /* SYEleFigureCell.m */; };
+		CF838453222936250087A011 /* SYEleFigureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF838451222936250087A011 /* SYEleFigureCell.xib */; };
+		CF838457222CB5080087A011 /* SYFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF838455222CB5080087A011 /* SYFeedbackViewController.m */; };
+		CF838458222CB5080087A011 /* SYFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF838456222CB5080087A011 /* SYFeedbackViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +175,54 @@
 		CF0DEC182227EEDC004B594F /* ACMediaImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaImageCell.h; sourceTree = "<group>"; };
 		CF0DEC192227EEDC004B594F /* ACMediaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMediaFrame.h; sourceTree = "<group>"; };
 		CF0DEC1A2227EEDC004B594F /* ACSelectMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSelectMediaView.m; sourceTree = "<group>"; };
+		CF0DEC252228BD31004B594F /* SYAddMoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAddMoodCell.h; sourceTree = "<group>"; };
+		CF0DEC262228BD31004B594F /* SYAddMoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAddMoodCell.m; sourceTree = "<group>"; };
+		CF0DEC272228BD31004B594F /* SYAddMoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYAddMoodCell.xib; sourceTree = "<group>"; };
+		CF0DEC2A2228BFAB004B594F /* SYAddLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAddLabelCell.h; sourceTree = "<group>"; };
+		CF0DEC2B2228BFAB004B594F /* SYAddLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYAddLabelCell.xib; sourceTree = "<group>"; };
+		CF0DEC2C2228BFAC004B594F /* SYAddLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAddLabelCell.m; sourceTree = "<group>"; };
+		CF0DEC2F2228CA66004B594F /* SYAddMoodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAddMoodViewController.h; sourceTree = "<group>"; };
+		CF0DEC302228CA66004B594F /* SYAddMoodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAddMoodViewController.m; sourceTree = "<group>"; };
+		CF0DEC312228CA66004B594F /* SYAddMoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYAddMoodViewController.xib; sourceTree = "<group>"; };
+		CF0DEC342228CA80004B594F /* SYAddChracterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAddChracterViewController.h; sourceTree = "<group>"; };
+		CF0DEC352228CA80004B594F /* SYAddChracterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAddChracterViewController.m; sourceTree = "<group>"; };
+		CF0DEC362228CA80004B594F /* SYAddChracterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYAddChracterViewController.xib; sourceTree = "<group>"; };
+		CF0DEC392228CA96004B594F /* SYPickLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPickLabelViewController.h; sourceTree = "<group>"; };
+		CF0DEC3A2228CA96004B594F /* SYPickLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPickLabelViewController.m; sourceTree = "<group>"; };
+		CF0DEC3B2228CA96004B594F /* SYPickLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYPickLabelViewController.xib; sourceTree = "<group>"; };
+		CF0DEC3E2228E264004B594F /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		CF0DEC3F2228E264004B594F /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		CF838425222900C90087A011 /* CCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDatePickerView.h; sourceTree = "<group>"; };
+		CF838426222900C90087A011 /* CCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDatePickerView.m; sourceTree = "<group>"; };
+		CF838428222912A70087A011 /* SYBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYBannerCell.h; sourceTree = "<group>"; };
+		CF838429222912A70087A011 /* SYBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYBannerCell.m; sourceTree = "<group>"; };
+		CF83842A222912A70087A011 /* SYBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYBannerCell.xib; sourceTree = "<group>"; };
+		CF83842D222912C30087A011 /* SYDetailContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDetailContentCell.h; sourceTree = "<group>"; };
+		CF83842E222912C30087A011 /* SYDetailContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDetailContentCell.m; sourceTree = "<group>"; };
+		CF83842F222912C30087A011 /* SYDetailContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYDetailContentCell.xib; sourceTree = "<group>"; };
+		CF8384322229136D0087A011 /* SYDetailCharacterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDetailCharacterCell.h; sourceTree = "<group>"; };
+		CF8384332229136D0087A011 /* SYDetailCharacterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDetailCharacterCell.m; sourceTree = "<group>"; };
+		CF8384342229136D0087A011 /* SYDetailCharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYDetailCharacterCell.xib; sourceTree = "<group>"; };
+		CF838437222919960087A011 /* SYDetailTagsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDetailTagsCell.h; sourceTree = "<group>"; };
+		CF838438222919960087A011 /* SYDetailTagsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDetailTagsCell.m; sourceTree = "<group>"; };
+		CF838439222919960087A011 /* SYDetailTagsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYDetailTagsCell.xib; sourceTree = "<group>"; };
+		CF83843C22291F540087A011 /* SYBannerItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYBannerItemCell.h; sourceTree = "<group>"; };
+		CF83843D22291F540087A011 /* SYBannerItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYBannerItemCell.m; sourceTree = "<group>"; };
+		CF83843E22291F540087A011 /* SYBannerItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYBannerItemCell.xib; sourceTree = "<group>"; };
+		CF838442222922100087A011 /* SYUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYUserDefaults.h; sourceTree = "<group>"; };
+		CF838443222922100087A011 /* SYUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYUserDefaults.m; sourceTree = "<group>"; };
+		CF838445222928260087A011 /* SYRecordImgItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYRecordImgItemCell.h; sourceTree = "<group>"; };
+		CF838446222928260087A011 /* SYRecordImgItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRecordImgItemCell.m; sourceTree = "<group>"; };
+		CF838447222928260087A011 /* SYRecordImgItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYRecordImgItemCell.xib; sourceTree = "<group>"; };
+		CF83844A2229354E0087A011 /* SYPickChracterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPickChracterViewController.h; sourceTree = "<group>"; };
+		CF83844B2229354E0087A011 /* SYPickChracterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPickChracterViewController.m; sourceTree = "<group>"; };
+		CF83844C2229354E0087A011 /* SYPickChracterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYPickChracterViewController.xib; sourceTree = "<group>"; };
+		CF83844F222936250087A011 /* SYEleFigureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYEleFigureCell.h; sourceTree = "<group>"; };
+		CF838450222936250087A011 /* SYEleFigureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYEleFigureCell.m; sourceTree = "<group>"; };
+		CF838451222936250087A011 /* SYEleFigureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYEleFigureCell.xib; sourceTree = "<group>"; };
+		CF838454222CB5080087A011 /* SYFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYFeedbackViewController.h; sourceTree = "<group>"; };
+		CF838455222CB5080087A011 /* SYFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFeedbackViewController.m; sourceTree = "<group>"; };
+		CF838456222CB5080087A011 /* SYFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYFeedbackViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +266,7 @@
 		8A3EDFD8222648910086198C /* basisProject */ = {
 			isa = PBXGroup;
 			children = (
+				CF838441222921E80087A011 /* public */,
 				CF0DEC032227EEDC004B594F /* Third */,
 				8A3EE00722264D2C0086198C /* Category */,
 				8A3EE00822264D2C0086198C /* Macro */,
@@ -244,6 +324,21 @@
 				CF0DEBD12227DD63004B594F /* SYAddRecordViewController.h */,
 				CF0DEBD22227DD63004B594F /* SYAddRecordViewController.m */,
 				CF0DEBD32227DD63004B594F /* SYAddRecordViewController.xib */,
+				CF0DEC2F2228CA66004B594F /* SYAddMoodViewController.h */,
+				CF0DEC302228CA66004B594F /* SYAddMoodViewController.m */,
+				CF0DEC312228CA66004B594F /* SYAddMoodViewController.xib */,
+				CF0DEC342228CA80004B594F /* SYAddChracterViewController.h */,
+				CF0DEC352228CA80004B594F /* SYAddChracterViewController.m */,
+				CF0DEC362228CA80004B594F /* SYAddChracterViewController.xib */,
+				CF0DEC392228CA96004B594F /* SYPickLabelViewController.h */,
+				CF0DEC3A2228CA96004B594F /* SYPickLabelViewController.m */,
+				CF0DEC3B2228CA96004B594F /* SYPickLabelViewController.xib */,
+				CF83844A2229354E0087A011 /* SYPickChracterViewController.h */,
+				CF83844B2229354E0087A011 /* SYPickChracterViewController.m */,
+				CF83844C2229354E0087A011 /* SYPickChracterViewController.xib */,
+				CF838454222CB5080087A011 /* SYFeedbackViewController.h */,
+				CF838455222CB5080087A011 /* SYFeedbackViewController.m */,
+				CF838456222CB5080087A011 /* SYFeedbackViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +346,8 @@
 		8A3EE00722264D2C0086198C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CF0DEC3E2228E264004B594F /* MBProgressHUD+MJ.h */,
+				CF0DEC3F2228E264004B594F /* MBProgressHUD+MJ.m */,
 				CF0DEBCB2227D1F3004B594F /* UIView+AZGradient.h */,
 				CF0DEBCC2227D1F3004B594F /* UIView+AZGradient.m */,
 				8A3EE00E22264F4E0086198C /* UIView+Extension.h */,
@@ -285,6 +382,12 @@
 		CF0DEBA72227C1C0004B594F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF0DEC2A2228BFAB004B594F /* SYAddLabelCell.h */,
+				CF0DEC2C2228BFAC004B594F /* SYAddLabelCell.m */,
+				CF0DEC2B2228BFAB004B594F /* SYAddLabelCell.xib */,
+				CF0DEC252228BD31004B594F /* SYAddMoodCell.h */,
+				CF0DEC262228BD31004B594F /* SYAddMoodCell.m */,
+				CF0DEC272228BD31004B594F /* SYAddMoodCell.xib */,
 				CF0DEBF72227EB5E004B594F /* SYAddCharacterCell.h */,
 				CF0DEBFC2227EB5F004B594F /* SYAddCharacterCell.m */,
 				CF0DEBFB2227EB5F004B594F /* SYAddCharacterCell.xib */,
@@ -306,6 +409,27 @@
 				CF0DEBD62227E1A3004B594F /* SYAddRecordsTopCell.h */,
 				CF0DEBD72227E1A3004B594F /* SYAddRecordsTopCell.m */,
 				CF0DEBD82227E1A3004B594F /* SYAddRecordsTopCell.xib */,
+				CF838428222912A70087A011 /* SYBannerCell.h */,
+				CF838429222912A70087A011 /* SYBannerCell.m */,
+				CF83842A222912A70087A011 /* SYBannerCell.xib */,
+				CF83842D222912C30087A011 /* SYDetailContentCell.h */,
+				CF83842E222912C30087A011 /* SYDetailContentCell.m */,
+				CF83842F222912C30087A011 /* SYDetailContentCell.xib */,
+				CF8384322229136D0087A011 /* SYDetailCharacterCell.h */,
+				CF8384332229136D0087A011 /* SYDetailCharacterCell.m */,
+				CF8384342229136D0087A011 /* SYDetailCharacterCell.xib */,
+				CF838437222919960087A011 /* SYDetailTagsCell.h */,
+				CF838438222919960087A011 /* SYDetailTagsCell.m */,
+				CF838439222919960087A011 /* SYDetailTagsCell.xib */,
+				CF83843C22291F540087A011 /* SYBannerItemCell.h */,
+				CF83843D22291F540087A011 /* SYBannerItemCell.m */,
+				CF83843E22291F540087A011 /* SYBannerItemCell.xib */,
+				CF838445222928260087A011 /* SYRecordImgItemCell.h */,
+				CF838446222928260087A011 /* SYRecordImgItemCell.m */,
+				CF838447222928260087A011 /* SYRecordImgItemCell.xib */,
+				CF83844F222936250087A011 /* SYEleFigureCell.h */,
+				CF838450222936250087A011 /* SYEleFigureCell.m */,
+				CF838451222936250087A011 /* SYEleFigureCell.xib */,
 			);
 			name = View;
 			path = basisProject/Main/View;
@@ -314,6 +438,8 @@
 		CF0DEC032227EEDC004B594F /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				CF838425222900C90087A011 /* CCDatePickerView.h */,
+				CF838426222900C90087A011 /* CCDatePickerView.m */,
 				CF0DEC042227EEDC004B594F /* ACMediaFrame */,
 			);
 			path = Third;
@@ -353,6 +479,15 @@
 				CF0DEC132227EEDC004B594F /* UIView+ACMediaExt.h */,
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		CF838441222921E80087A011 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				CF838442222922100087A011 /* SYUserDefaults.h */,
+				CF838443222922100087A011 /* SYUserDefaults.m */,
+			);
+			path = public;
 			sourceTree = "<group>";
 		};
 		FB15C8EF09E4425CFF98C1BC /* Pods */ = {
@@ -425,20 +560,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF0DEBCA2227CAC7004B594F /* SYMoodCell.xib in Resources */,
+				CF0DEC3D2228CA96004B594F /* SYPickLabelViewController.xib in Resources */,
 				8A3EDFE6222648920086198C /* LaunchScreen.storyboard in Resources */,
+				CF838431222912C30087A011 /* SYDetailContentCell.xib in Resources */,
 				CF0DEBD52227DD63004B594F /* SYAddRecordViewController.xib in Resources */,
 				CF0DEBAC2227C1E5004B594F /* SYHomeViewController.xib in Resources */,
+				CF83844E2229354E0087A011 /* SYPickChracterViewController.xib in Resources */,
 				CF0DEBC52227CAB5004B594F /* SYLabellistCell.xib in Resources */,
+				CF0DEC332228CA66004B594F /* SYAddMoodViewController.xib in Resources */,
 				CF0DEBFD2227EB5F004B594F /* SYAddRecorContentCell.xib in Resources */,
 				CF0DEBBB2227C23C004B594F /* SYSetupViewController.xib in Resources */,
 				8A3EDFE3222648920086198C /* Assets.xcassets in Resources */,
 				CF0DEBC02227C7EE004B594F /* SYRecordListCell.xib in Resources */,
+				CF838458222CB5080087A011 /* SYFeedbackViewController.xib in Resources */,
+				CF83844022291F540087A011 /* SYBannerItemCell.xib in Resources */,
 				CF0DEBB12227C20C004B594F /* SYRecordDetailViewController.xib in Resources */,
+				CF0DEC2D2228BFAC004B594F /* SYAddLabelCell.xib in Resources */,
+				CF83842C222912A70087A011 /* SYBannerCell.xib in Resources */,
+				CF0DEC382228CA80004B594F /* SYAddChracterViewController.xib in Resources */,
 				CF0DEC1B2227EEDC004B594F /* ACMediaFrame.bundle in Resources */,
+				CF0DEC292228BD31004B594F /* SYAddMoodCell.xib in Resources */,
+				CF83843B222919960087A011 /* SYDetailTagsCell.xib in Resources */,
 				8A3EDFE1222648910086198C /* Main.storyboard in Resources */,
 				CF0DEBDA2227E1A3004B594F /* SYAddRecordsTopCell.xib in Resources */,
 				CF0DEBB62227C229004B594F /* SYElementViewController.xib in Resources */,
+				CF838453222936250087A011 /* SYEleFigureCell.xib in Resources */,
 				CF0DEC002227EB5F004B594F /* SYAddRecordTimeCell.xib in Resources */,
+				CF838449222928260087A011 /* SYRecordImgItemCell.xib in Resources */,
+				CF8384362229136D0087A011 /* SYDetailCharacterCell.xib in Resources */,
 				CF0DEC012227EB5F004B594F /* SYAddCharacterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +604,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-basisProject/Pods-basisProject-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
@@ -462,6 +612,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
@@ -501,28 +652,44 @@
 			files = (
 				CF0DEC242227EEDC004B594F /* ACSelectMediaView.m in Sources */,
 				CF0DEC212227EEDC004B594F /* ACMediaImageCell.m in Sources */,
+				CF838430222912C30087A011 /* SYDetailContentCell.m in Sources */,
 				8A3EE00F22264F4E0086198C /* UIView+Extension.m in Sources */,
 				CF0DEBFF2227EB5F004B594F /* SYAddRecordTimeCell.m in Sources */,
 				CF0DEBD92227E1A3004B594F /* SYAddRecordsTopCell.m in Sources */,
 				CF0DEBAB2227C1E5004B594F /* SYHomeViewController.m in Sources */,
+				CF83844D2229354E0087A011 /* SYPickChracterViewController.m in Sources */,
 				CF0DEBBA2227C23C004B594F /* SYSetupViewController.m in Sources */,
 				CF0DEC022227EB5F004B594F /* SYAddCharacterCell.m in Sources */,
 				CF0DEC1F2227EEDC004B594F /* NSString+ACMediaExt.m in Sources */,
+				CF0DEC402228E264004B594F /* MBProgressHUD+MJ.m in Sources */,
+				CF838448222928260087A011 /* SYRecordImgItemCell.m in Sources */,
+				CF0DEC2E2228BFAC004B594F /* SYAddLabelCell.m in Sources */,
 				8A3EDFE9222648920086198C /* main.m in Sources */,
 				8A3EE00622264A280086198C /* BasicNavViewController.m in Sources */,
+				CF838452222936250087A011 /* SYEleFigureCell.m in Sources */,
+				CF838444222922100087A011 /* SYUserDefaults.m in Sources */,
+				CF0DEC3C2228CA96004B594F /* SYPickLabelViewController.m in Sources */,
 				CF0DEC232227EEDC004B594F /* ACMediaManager.m in Sources */,
+				CF83842B222912A70087A011 /* SYBannerCell.m in Sources */,
+				CF838457222CB5080087A011 /* SYFeedbackViewController.m in Sources */,
 				CF0DEC1D2227EEDC004B594F /* UIImage+ACGif.m in Sources */,
 				8A3EE000222649EE0086198C /* BasicTabBarViewController.m in Sources */,
+				CF0DEC322228CA66004B594F /* SYAddMoodViewController.m in Sources */,
+				CF0DEC282228BD31004B594F /* SYAddMoodCell.m in Sources */,
+				CF83843A222919960087A011 /* SYDetailTagsCell.m in Sources */,
 				CF0DEBC42227CAB5004B594F /* SYLabellistCell.m in Sources */,
 				CF0DEBD42227DD63004B594F /* SYAddRecordViewController.m in Sources */,
 				CF0DEBC92227CAC7004B594F /* SYMoodCell.m in Sources */,
 				CF0DEC1C2227EEDC004B594F /* UIView+ACMediaExt.m in Sources */,
 				8A3EDFDB222648910086198C /* AppDelegate.m in Sources */,
+				CF8384352229136D0087A011 /* SYDetailCharacterCell.m in Sources */,
+				CF0DEC372228CA80004B594F /* SYAddChracterViewController.m in Sources */,
 				CF0DEBB52227C229004B594F /* SYElementViewController.m in Sources */,
 				CF0DEBD02227DA84004B594F /* UIView+shadow.m in Sources */,
 				CF0DEBFE2227EB5F004B594F /* SYAddRecorContentCell.m in Sources */,
 				CF0DEC222227EEDC004B594F /* ACMediaModel.m in Sources */,
 				CF0DEBBF2227C7EE004B594F /* SYRecordListCell.m in Sources */,
+				CF838427222900C90087A011 /* CCDatePickerView.m in Sources */,
 				CF0DEBCD2227D1F3004B594F /* UIView+AZGradient.m in Sources */,
 				CF0DEBB02227C20C004B594F /* SYRecordDetailViewController.m in Sources */,
 				8A3EE00C22264F040086198C /* NSLayoutConstraint+IBDesignable.m in Sources */,
@@ -530,6 +697,7 @@
 				8A3EE00322264A0E0086198C /* BaseViewController.m in Sources */,
 				CF0DEC202227EEDC004B594F /* UIViewController+ACMediaExt.m in Sources */,
 				CF0DEC1E2227EEDC004B594F /* UIImageView+ACMediaExt.m in Sources */,
+				CF83843F22291F540087A011 /* SYBannerItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +841,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUM76T7B24;
+				DEVELOPMENT_TEAM = DT46R9Q6Y4;
 				GCC_PREFIX_HEADER = basisProject/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = basisProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -681,7 +849,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.basisProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.travelRecords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -693,7 +861,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUM76T7B24;
+				DEVELOPMENT_TEAM = DT46R9Q6Y4;
 				GCC_PREFIX_HEADER = basisProject/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = basisProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -701,7 +869,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sy.basisProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.travelRecords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

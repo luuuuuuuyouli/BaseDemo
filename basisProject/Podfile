@@ -12,6 +12,7 @@ pod 'Masonry','~>1.0.2'
 pod 'ACAlertController','1.0.0'
 pod 'TZImagePickerController','1.9.8'
 pod 'MWPhotoBrowser','2.1.1'
+pod 'IQKeyboardManager'
 
 
 end

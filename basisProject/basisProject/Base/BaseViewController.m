@@ -20,11 +20,7 @@
     
     [super viewWillAppear:animated];
 
-    if (self.navigationController.viewControllers.count == 1) {
-      
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@""] style:UIBarButtonItemStyleDone target:self action:@selector(backs)];
-    }
-    self.navigationController.navigationBar.barTintColor = nil;
+   
 }
 
 
@@ -36,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
     
     [self setNeedsStatusBarAppearanceUpdate];
     
@@ -71,9 +68,17 @@
     
     [self.navigationController.navigationBar setBackgroundImage:UIGraphicsGetImageFromCurrentImageContext()  forBarMetrics:UIBarMetricsDefault];
     
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"fanhi"] style:UIBarButtonItemStyleDone target:self action:@selector(backs)];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"fanhui"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:nil action:nil];
+    //隐藏默认的返回箭头
+    self.navigationController.navigationBar.backIndicatorImage = [UIImage new];
+    self.navigationController.navigationBar.backIndicatorTransitionMaskImage = [UIImage new];
+
+
+    if (self.navigationController) {
+        self.navigationController.navigationBar.barStyle = UIStatusBarStyleDefault;
+        [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+    }
     
-    self.view.backgroundColor = [UIColor whiteColor];
     
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18],NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
@@ -83,10 +88,10 @@
     _navBarHairlineImageView.hidden = YES;
 }
 
-- (void)backs
-{
-    [self.navigationController popViewControllerAnimated:YES];
+- (void)backs{
+
 }
+
 
 - (UIImageView *)slnFindHairlineImageViewUnder:(UIView *)view {
     

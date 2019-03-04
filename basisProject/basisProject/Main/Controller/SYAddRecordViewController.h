@@ -10,7 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SYAddRecordViewController : UIViewController
+@interface SYAddRecordViewController : BaseViewController
+
 
 @end
 

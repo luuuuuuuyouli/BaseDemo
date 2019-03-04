@@ -11,7 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^cellHeightChangeHeightBlock)(CGFloat height);
+
+typedef void(^UploadMediaBlock)(NSArray<ACMediaModel *> *list);
+
 @interface SYAddRecordsTopCell : UITableViewCell
+
+@property (nonatomic,strong) cellHeightChangeHeightBlock cellHeightChangeHeightBlock;
+@property (nonatomic,strong) UploadMediaBlock uploadMediaBlock;
+
 
 @end
 

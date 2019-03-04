@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SYRecordDetailViewController : BaseViewController
 
+@property (nonatomic,strong) NSDictionary *dataDic;
+
+@property (nonatomic,strong) NSMutableArray *dataList;
+
+@property (nonatomic,assign) NSInteger delIndex;
+
 @end
 
 NS_ASSUME_NONNULL_END

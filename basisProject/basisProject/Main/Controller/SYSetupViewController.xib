@@ -31,16 +31,16 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="225-Ed-hV6">
-                            <rect key="frame" x="147.5" y="43" width="80" height="80"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="225-Ed-hV6">
+                            <rect key="frame" x="149.5" y="43" width="76" height="76"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="80" id="BrE-A5-rFS"/>
-                                <constraint firstAttribute="width" constant="80" id="oOf-D6-HAI"/>
+                                <constraint firstAttribute="height" constant="76" id="BrE-A5-rFS"/>
+                                <constraint firstAttribute="width" constant="76" id="oOf-D6-HAI"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                    <integer key="value" value="40"/>
+                                    <integer key="value" value="38"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                             </userDefinedRuntimeAttributes>
@@ -58,16 +58,28 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2f-5C-awA">
                     <rect key="frame" x="12" y="212" width="351" height="70"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-7S-oeT">
-                            <rect key="frame" x="20" y="32" width="97" height="33"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <state key="normal" title="Data backup">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-7S-oeT">
+                            <rect key="frame" x="20" y="43" width="130" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="130" id="mU4-vx-aKg"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-28" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Version" image="backup-hm">
                                 <color key="titleColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                         </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htU-qp-yDg">
+                            <rect key="frame" x="307" y="43.5" width="23" height="21.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="htU-qp-yDg" firstAttribute="centerY" secondItem="PbK-7S-oeT" secondAttribute="centerY" id="Iu8-Xi-xuW"/>
+                        <constraint firstAttribute="trailing" secondItem="htU-qp-yDg" secondAttribute="trailing" constant="21" id="T7Q-UE-i4k"/>
                         <constraint firstAttribute="bottom" secondItem="PbK-7S-oeT" secondAttribute="bottom" constant="5" id="jP6-Bw-DUk"/>
                         <constraint firstAttribute="height" constant="70" id="vqJ-6B-rCu"/>
                         <constraint firstItem="PbK-7S-oeT" firstAttribute="leading" secondItem="x2f-5C-awA" secondAttribute="leading" constant="20" id="wv1-pO-l8I"/>
@@ -76,25 +88,39 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LU5-3p-0iN">
                     <rect key="frame" x="12" y="277" width="351" height="128"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6N-O8-pRg">
-                            <rect key="frame" x="20" y="16" width="76" height="33"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <state key="normal" title="Feedback">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6N-O8-pRg">
+                            <rect key="frame" x="20" y="22" width="133" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="133" id="0Xj-er-Jhp"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Feedback" image="fankuiyijian">
                                 <color key="titleColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <connections>
+                                <action selector="feedBackClick:" destination="-1" eventType="touchUpInside" id="Thd-RU-oXJ"/>
+                            </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22u-Zw-fvi">
-                            <rect key="frame" x="20" y="65" width="84" height="33"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <state key="normal" title="Contact us">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22u-Zw-fvi">
+                            <rect key="frame" x="20" y="66" width="143" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="143" id="iNM-hc-A2y"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-13" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Contact us" image="jinjilianxiren">
                                 <color key="titleColor" red="0.46666666670000001" green="0.44705882349999998" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
+                            <connections>
+                                <action selector="contactus:" destination="-1" eventType="touchUpInside" id="WjB-sr-O2L"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="m6N-O8-pRg" firstAttribute="top" secondItem="LU5-3p-0iN" secondAttribute="top" constant="16" id="5OC-2s-D8o"/>
-                        <constraint firstItem="22u-Zw-fvi" firstAttribute="top" secondItem="m6N-O8-pRg" secondAttribute="bottom" constant="16" id="Y38-8R-FwV"/>
+                        <constraint firstItem="m6N-O8-pRg" firstAttribute="top" secondItem="LU5-3p-0iN" secondAttribute="top" constant="22" id="5OC-2s-D8o"/>
+                        <constraint firstItem="22u-Zw-fvi" firstAttribute="top" secondItem="m6N-O8-pRg" secondAttribute="bottom" constant="22" id="Y38-8R-FwV"/>
                         <constraint firstAttribute="height" constant="128" id="sqc-wM-XpS"/>
                     </constraints>
                 </view>
@@ -118,4 +144,10 @@
             <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
         </view>
     </objects>
+    <resources>
+        <image name="backup-hm" width="18" height="18"/>
+        <image name="fankuiyijian" width="18" height="18"/>
+        <image name="jinjilianxiren" width="18" height="19"/>
+        <image name="logo" width="63" height="63"/>
+    </resources>
 </document>
