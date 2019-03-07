@@ -20,7 +20,11 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGg-Uq-30Y">
-                        <rect key="frame" x="300" y="19" width="12" height="22"/>
+                        <rect key="frame" x="282" y="15" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="D6f-mI-esg"/>
+                            <constraint firstAttribute="width" constant="30" id="Hme-eg-QhO"/>
+                        </constraints>
                         <state key="normal" image="add_ele"/>
                         <connections>
                             <action selector="addCharacterClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DgA-zx-xAn"/>
@@ -33,20 +37,20 @@
                             <constraint firstAttribute="height" constant="1" id="VJT-Pp-Faf"/>
                         </constraints>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Add character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEM-iv-jO2">
-                        <rect key="frame" x="20" y="21" width="128" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEM-iv-jO2">
+                        <rect key="frame" x="20" y="21" width="97.5" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="sEM-iv-jO2" firstAttribute="top" secondItem="izk-rk-UMJ" secondAttribute="bottom" constant="20" id="5kN-PS-Ia3"/>
                     <constraint firstAttribute="trailing" secondItem="izk-rk-UMJ" secondAttribute="trailing" constant="5" id="D9X-Go-JRh"/>
+                    <constraint firstItem="sEM-iv-jO2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="KIR-5Z-3HX"/>
                     <constraint firstItem="izk-rk-UMJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ow0-ej-jU4"/>
                     <constraint firstItem="pGg-Uq-30Y" firstAttribute="centerY" secondItem="sEM-iv-jO2" secondAttribute="centerY" id="VWy-lr-XIF"/>
                     <constraint firstItem="izk-rk-UMJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ZUH-FX-Q1G"/>
-                    <constraint firstItem="sEM-iv-jO2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="g0y-eo-RI8"/>
+                    <constraint firstItem="sEM-iv-jO2" firstAttribute="top" secondItem="izk-rk-UMJ" secondAttribute="bottom" constant="20" id="eau-YS-Yg8"/>
                     <constraint firstAttribute="trailing" secondItem="pGg-Uq-30Y" secondAttribute="trailing" constant="15" id="lAN-dV-sJh"/>
                 </constraints>
             </tableViewCellContentView>

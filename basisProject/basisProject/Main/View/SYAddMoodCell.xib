@@ -20,7 +20,11 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5z-fu-tJ4">
-                        <rect key="frame" x="298" y="19" width="12" height="22"/>
+                        <rect key="frame" x="280" y="15" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6kc-za-JA6"/>
+                            <constraint firstAttribute="width" constant="30" id="efX-Nb-6d5"/>
+                        </constraints>
                         <state key="normal" image="add_ele"/>
                         <connections>
                             <action selector="addMoodClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MHZ-pA-axV"/>

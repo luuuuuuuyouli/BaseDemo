@@ -11,7 +11,8 @@
 @interface SYAddMoodViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *happyButton;
 @property (weak, nonatomic) IBOutlet UIButton *cryButton;
-@property (weak, nonatomic) IBOutlet UITextField *textfield;
+
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @property (nonatomic,copy) NSString *mood;
 
@@ -24,17 +25,19 @@
     self.title = @"Add mood";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"ok"] style:UIBarButtonItemStyleDone target:self action:@selector(action_sure)];
     _mood = @"1";//happpy
+    _textView.layer.masksToBounds = YES;
+    _textView.layer.cornerRadius = 10;
 }
 
 - (void)action_sure{
     
-    if ([_textfield.text isEmptyStr]) {
+    if ([_textView.text isEmptyStr]) {
         showError(@"Please enter your mood");
         return;
     }
     
     if (self.addMoodBlock) {
-        self.addMoodBlock(_mood, _textfield.text);
+        self.addMoodBlock(_mood, _textView.text);
     }
     
     [self.navigationController popViewControllerAnimated:YES];

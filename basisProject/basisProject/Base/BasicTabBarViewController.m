@@ -29,25 +29,35 @@
     [self addChild];
     //2.设置tabbar的背景
     
-     //[self.tabBarItem az_setGradientBackgroundWithColors:@[rgba(113, 157, 248, 1),rgba(119, 114, 238, 1)] locations:nil startPoint:CGPointMake(0, 0) endPoint:CGPointMake(1, 0)];
+    CGRect frame = CGRectMake(0, 0, SCREEN_W, kTabBarHeight);
     
-   // self.tabBar.barTintColor = [UIColor redColor];
+    UIImageView *imgview = [[UIImageView alloc]initWithFrame:frame];
     
-    NSString *imageName = @"";
+    UIGraphicsBeginImageContext(imgview.frame.size);
     
-    if (SCREEN_W == 375) {
-        imageName = @"tabbar_2x";
-    }else if (SCREEN_W == 414){
-        imageName = @"tabbar_plus";
-    }else if(SCREEN_H >= 812 ){
-        imageName = @"tabbar_plus";
-    }else{
-        imageName = @"tabbar_2x";
-    }
+    CGContextRef context = UIGraphicsGetCurrentContext();
     
-    [self.tabBar setBackgroundImage:[UIImage imageNamed:imageName]];
+    CGColorSpaceRef rgb = CGColorSpaceCreateDeviceRGB();
     
-   // [[UITabBar appearance] setBarTintColor:rgba(113, 157, 248, 1)];
+    CGContextScaleCTM(context, frame.size.width, frame.size.height);
+    
+    CGFloat colors[] = {
+        
+        113.0/255.0, 157.0/255.0, 248.0/255.0, 1.0,
+        
+        119.0/255.0, 114.0/255.0, 238.0/255.0, 1.0,
+        
+    };
+    
+    CGGradientRef backGradient = CGGradientCreateWithColorComponents(rgb, colors, NULL, sizeof(colors)/(sizeof(colors[0])*4));
+    
+    CGColorSpaceRelease(rgb);
+    
+    //设置颜色渐变的方向，范围在(0,0)与(1.0,1.0)之间，如(0,0)(1.0,0)代表水平方向渐变,(0,0)(0,1.0)代表竖直方向渐变
+    CGContextDrawLinearGradient(context, backGradient, CGPointMake(0, 0), CGPointMake(1.0, 0), kCGGradientDrawsBeforeStartLocation);
+    
+    [self.tabBar setBackgroundImage:UIGraphicsGetImageFromCurrentImageContext()];
+
     
     [UITabBar appearance].translucent = NO;
 }

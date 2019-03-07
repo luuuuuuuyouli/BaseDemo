@@ -20,6 +20,6 @@
 - (void)videoImage: (UIImage *)videoImage show: (BOOL)show;
 
 /** 点击删除按钮的回调block */
-@property (nonatomic, copy) void(^ACMediaClickDeleteButton)();
+@property (nonatomic, copy) void(^ACMediaClickDeleteButton)(void);
 
 @end
